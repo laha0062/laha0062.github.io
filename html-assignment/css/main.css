@@ -24,6 +24,6 @@ ul:nth-child(odd) {
     background-color: red;
 }
 
-nav{
+nav a:link, a:visited {
    text-decoration: none; 
 }
