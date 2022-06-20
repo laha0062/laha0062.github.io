@@ -8,5 +8,6 @@ header, footer {
 }
 
 .site-title{
-    text-decoration: skyblue;
+    /**text-decoration: skyblue;**/
+    color: firebrick;
 }
