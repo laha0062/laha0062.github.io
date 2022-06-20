@@ -23,3 +23,7 @@ ul{
 ul:nth-child(odd) {
     background-color: red;
 }
+
+nav{
+   text-decoration: none; 
+}
