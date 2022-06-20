@@ -26,4 +26,13 @@ ul:nth-child(odd) {
 
 nav a:link, a:visited {
    text-decoration: none; 
+   border-style: double;
+   border-radius: 5px;
+   background: red;
+   color: azure;
+}
+
+nav a:hover{
+    background-color: blue;
+    color: black;
 }
