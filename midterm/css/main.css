@@ -27,6 +27,7 @@ nav ul li{
     display: inline;
 }
 
+/*selects all content elements*/
 .main, .facts, .contact {
     margin-left: 10px;
 }
