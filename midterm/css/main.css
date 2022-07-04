@@ -13,4 +13,9 @@ header {
 
 nav ul{
     list-style-type: none;
+    margin: auto;
+}
+
+ul :nth-child(1) {
+    float: left;
 }
