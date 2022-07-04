@@ -1,6 +1,11 @@
 html {
     background-color: #aad4cf;
 }
+
+.clearfix::after {
+    clear:both;
+}
+
 .wrapper {
     width: 1024px;
     margin: auto;
@@ -18,5 +23,10 @@ nav ul{
 
 ul :nth-child(1) {
     float: left;
+    margin: auto;
+}
+
+ul :nth-child(2) {
+    float: center;
     margin: auto;
 }
