@@ -16,12 +16,13 @@ header {
     /*fix image and move text over top*/
 }
 
-nav ul{
+nav ul li{
     list-style-type: none;
     margin: auto;
+    display: inline;
 }
 
-ul :nth-child(1) {
+/*ul :nth-child(1) {
     float: left;
     margin: auto;
 }
@@ -29,4 +30,4 @@ ul :nth-child(1) {
 ul :nth-child(2) {
     float: center;
     margin: auto;
-}
+}*/
