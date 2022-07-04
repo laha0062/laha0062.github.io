@@ -6,3 +6,11 @@ html {
     margin: auto;
     background-color: #d4e9e7;
 }
+
+header {
+    /*fix image and move text over top*/
+}
+
+nav ul{
+    list-style-type: none;
+}
