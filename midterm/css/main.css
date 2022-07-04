@@ -30,6 +30,7 @@ nav ul li{
 .article-img {
     width: 250px;
     height: 257px;
+    float: left;
 }
 /*ul :nth-child(1) {
     float: left;
