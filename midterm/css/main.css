@@ -1,5 +1,6 @@
 html {
     background-color: #aad4cf;
+    font-size: 16px;
 }
 
 .clearfix::after {
