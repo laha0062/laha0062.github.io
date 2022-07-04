@@ -27,6 +27,10 @@ nav ul li{
     display: inline;
 }
 
+.main, .facts, .contact {
+    margin-left: 10px;
+}
+
 .article-img {
     width: 250px;
     height: 257px;
