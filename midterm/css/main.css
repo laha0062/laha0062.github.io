@@ -41,7 +41,7 @@ h2 {
 .article-img {
     width: 250px;
     height: 257px;
-    margin-right: 19px;
+    margin-right: 20px;
     float: left;
 }
 
@@ -51,6 +51,9 @@ h2 {
     border-style: solid;
 }
 
+form label {
+    display: none;
+}
 /*ul :nth-child(1) {
     float: left;
     margin: auto;
