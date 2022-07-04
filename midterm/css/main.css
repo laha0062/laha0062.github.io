@@ -17,6 +17,10 @@ header h1 {
     color: #fff;
 }
 
+ul {
+    text-align: center;
+}
+
 nav ul li{
     list-style-type: none;
     margin: auto;
