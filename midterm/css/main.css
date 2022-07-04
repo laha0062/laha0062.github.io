@@ -12,8 +12,9 @@ html {
     background-color: #d4e9e7;
 }
 
-header {
+header h1 {
     /*fix image and move text over top*/
+    color: #fff;
 }
 
 nav ul li{
