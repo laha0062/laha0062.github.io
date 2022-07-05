@@ -73,6 +73,11 @@ h2 {
     float: left;
 }
 
+/*styles facts heading and contact heading*/
+h3 {
+    font-size: 1.3rem;
+}
+
 /*controls outer border of form*/
 .form {
     border: black;
@@ -96,6 +101,11 @@ form .labelfix input, textarea {
 
 .radiobuttons {
     font-weight: bold;
+}
+
+/*changes h4 within radio buttons*/
+.radiobuttons h4 {
+    font-size: 1.15rem;
 }
 
 form button {
