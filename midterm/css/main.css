@@ -81,3 +81,6 @@ form .labelfix input, textarea {
     width: 100%;
 }
 
+.radiobuttons {
+    font-weight: bold;
+}
