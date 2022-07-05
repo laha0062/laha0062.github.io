@@ -87,4 +87,7 @@ form .labelfix input, textarea {
 
 form button {
     background-color: #d4e9e7;
+    padding: 11px;
+    margin-top: 11px;
+    margin-bottom: 16px;
 }
