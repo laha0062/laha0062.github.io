@@ -15,9 +15,16 @@ html {
     background-color: #d4e9e7;
 }
 
+header {
+    text-align: center;
+    position: relative;
+}
+
 header h1 {
     /*fix image and move text over top*/
     color: #fff;
+    position: absolute;
+    
 }
 
 nav ul {
