@@ -24,7 +24,7 @@ header {
 header h1 {
     /*fix image and move text over top*/
     color: #fff;
-    font-size: 3rem;
+    font-size: 3.2rem;
     position: absolute;
     left: 33%;
     top: 50%;
