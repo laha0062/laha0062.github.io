@@ -64,6 +64,7 @@ h2 {
     border: black;
     border-width: 1px;
     border-style: solid;
+    margin-right: 10px;
 }
 
 form {
