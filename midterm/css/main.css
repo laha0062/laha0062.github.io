@@ -4,7 +4,8 @@ html {
     font-size: 18px;
 }
 
-.clearfix::after {
+.clearfix :after {
+    content: "";
     clear:both;
 }
 
