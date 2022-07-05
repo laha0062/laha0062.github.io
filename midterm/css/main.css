@@ -24,7 +24,8 @@ header h1 {
     /*fix image and move text over top*/
     color: #fff;
     position: absolute;
-    
+    left: 40%;
+    top: 60%;
 }
 
 nav ul {
