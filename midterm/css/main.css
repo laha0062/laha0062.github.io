@@ -80,7 +80,7 @@ h2 {
 }
 
 form {
-    /*using percentages for internal margins allows internals to scale with borded contols*/
+    /*using percentages for internal margins allows internals to scale with border contols*/
     margin-left: 1.56%;
     margin-right: 1.56%;
 }
