@@ -29,6 +29,7 @@ nav ul li{
     margin: auto;
     /*inline block allows for h and w controls*/
     display: inline-block;
+    /*padding via px doesnt allow for scaling so maybe change*/
     padding-left: 128px;
     padding-right: 128px;
 }
