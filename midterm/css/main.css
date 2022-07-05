@@ -74,7 +74,7 @@ form {
 form .labelfix label {
     display: none;
 }
-form input, textarea {
+form .labelfix input, textarea {
     width: 100%;
 }
 
