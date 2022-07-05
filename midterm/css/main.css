@@ -27,7 +27,8 @@ nav ul {
 nav ul li{
     list-style-type: none;
     margin: auto;
-    display: inline;
+    /*inline block allows for h and w controls*/
+    display: inline-block;
 }
 
 /*selects all content elements*/
