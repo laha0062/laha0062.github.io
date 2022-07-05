@@ -29,6 +29,8 @@ nav ul li{
     margin: auto;
     /*inline block allows for h and w controls*/
     display: inline-block;
+    padding-left: 128px;
+    padding-right: 128px;
 }
 
 /*selects all content elements*/
