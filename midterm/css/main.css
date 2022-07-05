@@ -4,7 +4,7 @@ html {
     font-size: 18px;
 }
 
-.clearfix :after {
+.clearfix::after {
     content: "";
     clear:both;
 }
@@ -39,9 +39,20 @@ nav ul li{
     margin: auto;
     /*inline block allows for h and w controls*/
     display: inline-block;
-    /*padding via px doesnt allow for scaling so maybe change*/
-    padding-left: 128px;
-    padding-right: 128px;
+    /*padding via % allows for scaling so font size can be adjusted*/
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+a:link, :visited {
+    text-decoration: none;
+    color: black;
+    font-size: 1.75rem;
+}
+
+a:hover {
+    opacity: 50%;
+    text-decoration: underline;
 }
 
 /*selects all content elements*/
@@ -90,4 +101,9 @@ form button {
     padding: 11px;
     margin-top: 11px;
     margin-bottom: 16px;
+}
+
+footer {
+    text-align: right;
+    padding-bottom: 10px;
 }
