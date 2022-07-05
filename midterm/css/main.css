@@ -55,6 +55,10 @@ h2 {
 form label {
     display: none;
 }
+form input {
+    width: ;
+}
+
 /*ul :nth-child(1) {
     float: left;
     margin: auto;
