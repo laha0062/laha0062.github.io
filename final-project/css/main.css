@@ -81,4 +81,9 @@ nav > ul li a:hover, a:active {
 /*finish styling nav, needs elements to be full width*/
 .welcome {
 	background-image: url("../img/images/main-banner.jpg");
+	background-size: auto;
+}
+
+.welcome > .wrapper {
+	margin: auto;
 }
