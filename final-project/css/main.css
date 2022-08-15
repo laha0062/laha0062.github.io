@@ -61,6 +61,14 @@ body {
     background-color: #222;
 }
 
+nav ul li {
+	margin: 3.5% 0 3.5% 0;
+}
+
+nav input {
+	width: 90%;
+}
+
 /*need to solve to get background color around logo*/
 div > img {
     background-color: #c78c06;
