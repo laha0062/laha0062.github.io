@@ -141,3 +141,24 @@ h2 {
 	font-size: .75rem;
 	margin-top: 2%;
 }
+
+/*targets each seperate services div*/
+div.services div.wrapper div {
+	margin: 2%;
+	background-color: #ffe6ac;
+}
+
+.services h2 {
+	padding-top: 4.5%;
+	padding-bottom: 2%
+}
+
+.services img {
+	display: inline-block;
+	width: 100%;
+	margin-bottom: 2%;
+}
+
+.services h3, p, a {
+	padding: 2%;
+}
