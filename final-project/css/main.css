@@ -104,6 +104,7 @@ h1, .welcome p {
 
 h1 {
 	font-size: 3rem;
+	font-weight: bold;
 }
 
 .welcome p {
@@ -117,4 +118,14 @@ h1 {
 	text-align: center;
 	display: inline-block;
 	width: 30%;
+}
+
+.about-us {
+	background-color: #ffe6ac;
+	padding: 2%;
+}
+
+h2 {
+	font-size: 2rem;
+	font-weight: bold;
 }
