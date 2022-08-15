@@ -355,7 +355,7 @@ footer .wrapper {
 	padding: 2%;
 }
 
-@media screen and (min-width:760px) {}
+@media screen and (min-width:760px) {
 	nav {
 		display: flex;
 		flex-direction: row;
@@ -402,4 +402,6 @@ footer .wrapper {
 		text-align: center;
 		display: inline-block;
 		width: 20%;
+	}
+
 }
