@@ -60,4 +60,15 @@ div > img {
 
 nav > ul, form {
     text-align: center;
+    list-style-type: none;
+}
+
+nav > ul li a:visited, a:link {
+    color:#c78c06;
+    text-decoration: none;
+}
+
+nav > ul li a:hover, a:active {
+    color:#222;
+    text-decoration: none;
 }
