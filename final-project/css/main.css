@@ -85,5 +85,7 @@ nav > ul li a:hover, a:active {
 }
 
 .welcome > .wrapper {
+	/*used rgba version of colour to allow for opacity on background*/
+	background-color: rgba( 34, 34, 34, 0.5);
 	margin: auto;
 }
