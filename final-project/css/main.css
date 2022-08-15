@@ -258,6 +258,10 @@ div.services div.wrapper a {
 	padding-left: 2%;
 }
 
+.team p {
+	font-size: .75rem;
+}
+
 /*created seperate div with line class for adding lines*/
 .line {
 	border-bottom: #c78c06;
