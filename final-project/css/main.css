@@ -226,3 +226,41 @@ div.services div.wrapper a {
 	border-style: solid;
 	border-color: #c78c06;
 }
+
+.team h2 {
+	font-weight: bold;
+	margin-top: 4.5%;
+	margin-bottom: 2%;
+}
+
+.team .wrapper {
+	padding: 2%;
+}
+
+.team .wrapper div {
+	background-color: #ffe6ac;
+}
+
+.team img {
+	display: inline-block;
+	width: 100%;
+}
+
+.team h3 {
+	font-weight: bold;
+	font-size: 1.75rem;
+	padding-left: 2%;
+}
+
+.team h4 {
+	font-weight: bold;
+	padding-top: 1%;
+	padding-left: 2%;
+}
+
+/*created seperate div with line class for adding lines*/
+.line {
+	border-bottom: #c78c06;
+	border-style: solid;
+	margin: 2%;
+}
