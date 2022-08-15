@@ -297,3 +297,17 @@ div.services div.wrapper a {
 	color: #c78c06;
 	background-color: #222;
 }
+
+.hours .wrapper {
+	padding: 2%;
+}
+
+.hours h3 {
+	font-size: 1.75rem;
+	font-weight: bold;
+}
+
+table, th, td {
+	border-style: solid;
+	border: 1px #222;
+}
