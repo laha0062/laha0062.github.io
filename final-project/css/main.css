@@ -52,3 +52,7 @@ body {
 .wrapper nav {
     background-color: #222;
 }
+
+nav > ul, form {
+    text-align: center;
+}
