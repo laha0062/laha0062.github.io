@@ -307,6 +307,17 @@ div.services div.wrapper a {
 	font-weight: bold;
 }
 
-table, th, td {
+.hours table {
+	width: 100%;
+}
+
+.hours table, th, td {
+	margin-top: 2%;
 	border: 1px solid #222;
+	padding: 2%;
+	font-size: .75rem;
+}
+
+.hours th {
+	background-color: #ffe6ac;
 }
