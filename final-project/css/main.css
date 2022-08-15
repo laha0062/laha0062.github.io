@@ -81,7 +81,7 @@ nav > ul li a:hover, a:active {
 /*finish styling nav, needs elements to be full width*/
 .welcome {
 	background-image: url("../img/images/main-banner.jpg");
-	background-size: contain;
+	background-size: cover;
 	background-repeat: no-repeat;
 }
 
@@ -103,4 +103,6 @@ h1, .welcome p {
 	background-color: #c78c06;
 	padding: 4.5%;
 	text-align: center;
+	display: inline-block;
+	width: 30%;
 }
