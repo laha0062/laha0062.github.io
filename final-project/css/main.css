@@ -354,3 +354,52 @@ footer {
 footer .wrapper {
 	padding: 2%;
 }
+
+@media screen and (min-width:760px) {
+	nav {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+	nav ul {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	nav ul li {
+		padding: 7%;
+		margin: auto;
+	}
+
+	nav form {
+		/*fix form submission size when flexed*/
+		display: flex;
+		flex-direction: row;
+		margin: auto 0 auto 0;
+	}
+	/* welcome section*/
+	h1 {
+		font-size: 4rem;
+		font-weight: bold;
+	}
+
+	.welcome .wrapper {
+		margin-top: 4.5%;
+		margin-bottom: 4.5%;
+		margin: 8%;
+		width: fit-content;
+	}
+	
+	.welcome p {
+		font-size: 1.25rem;
+	}
+	
+	.welcome a {
+		color: #222;
+		background-color: #c78c06;
+		padding: 2%;
+		text-align: center;
+		display: inline-block;
+		width: 20%;
+}
