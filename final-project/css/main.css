@@ -81,11 +81,17 @@ nav > ul li a:hover, a:active {
 /*finish styling nav, needs elements to be full width*/
 .welcome {
 	background-image: url("../img/images/main-banner.jpg");
-	background-size: auto;
+	background-size: contain;
+	background-repeat: no-repeat;
 }
 
-.welcome > .wrapper {
+.welcome .wrapper {
 	/*used rgba version of colour to allow for opacity on background*/
 	background-color: rgba( 34, 34, 34, 0.5);
-	margin: auto;
+	/*need to center main wrapper block*/
+	padding-top: 136px;
+}
+
+h1, .welcome p { 
+	color: white;
 }
