@@ -134,4 +134,10 @@ h2 {
 .about-us img {
 	display: inline-block;
 	width: 100%;
+	margin-bottom: 2%;
+}
+
+.about-us p {
+	font-size: .75rem;
+	margin-top: 2%;
 }
