@@ -95,6 +95,7 @@ nav > ul li a:hover, a:active {
 	display: inline-block;
 	margin-top: 4.5%;
 	margin-bottom: 4.5%;
+	/*padding used to increase container size to prevent button overflow*/
 	padding: 2%;
 }
 
