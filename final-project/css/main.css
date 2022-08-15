@@ -79,6 +79,6 @@ nav > ul li a:hover, a:active {
 }
 
 /*finish styling nav, needs elements to be full width*/
-div.wrapper:nth-child(1) {
-	background-image: ;
+.welcome {
+	background-image: url("../img/images/main-banner.jpg");
 }
