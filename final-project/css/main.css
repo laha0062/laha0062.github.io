@@ -171,6 +171,15 @@ div.services div.wrapper div {
 	padding: 2%;
 }
 
+.services h3 {
+	font-size: 1.75rem;
+	font-weight: bold;
+}
+
+.services p {
+	font-size: .75rem;
+}
+
 div.services div.wrapper a {
 	color: white;
 	background-color: #222;
@@ -179,4 +188,41 @@ div.services div.wrapper a {
 	display: inline-block;
 	margin-left: 2%;
 	margin-bottom: 2%;
+}
+
+.vision {
+	background-image: url(../img/images/vision.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.vision .wrapper {
+	padding: 2%;
+}
+
+.vision h3, .vision p, .vision a {
+	color: white;
+	padding: 2%;
+}
+
+.vision h3 {
+	font-size: 1.75rem;
+	font-weight: bold;
+}
+
+.vision p {
+	font-size: .75rem;
+}
+
+.vision div.wrapper a {
+	color: white;
+	background-color: rgba( 34, 34, 34, 0.75);
+	padding: 4.5%;
+	text-align: center;
+	display: inline-block;
+	margin-left: 2%;
+	margin-bottom: 2%;
+	border: 1px;
+	border-style: solid;
+	border-color: #c78c06;
 }
