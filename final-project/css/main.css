@@ -129,3 +129,8 @@ h2 {
 	font-size: 2rem;
 	font-weight: bold;
 }
+
+.about-us img {
+	display: inline-block;
+	width: 100%;
+}
