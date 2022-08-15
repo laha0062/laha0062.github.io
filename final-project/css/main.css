@@ -44,9 +44,14 @@ table {
 	border-spacing: 0;
 }
 
+/*end of reset*/
+
 body {
     font-family: 'Open Sans', sans-serif;
-    margin: 0, auto;
+}
+
+.wrapper{
+	margin: 0, auto;
 }
 
 .wrapper nav {
@@ -74,3 +79,6 @@ nav > ul li a:hover, a:active {
 }
 
 /*finish styling nav, needs elements to be full width*/
+div.wrapper:nth-child(1) {
+	background-image: ;
+}
