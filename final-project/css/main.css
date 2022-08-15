@@ -162,3 +162,13 @@ div.services div.wrapper div {
 .services h3, p, a {
 	padding: 2%;
 }
+
+div.services div.wrapper a {
+	color: white;
+	background-color: #222;
+	padding: 4.5%;
+	text-align: center;
+	display: inline-block;
+	margin-left: 2%;
+	margin-bottom: 2%;
+}
