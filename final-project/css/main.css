@@ -62,11 +62,17 @@ body {
 }
 
 nav ul li {
-	margin: 3.5% 0 3.5% 0;
+	margin: 4% 0 4% 0;
 }
 
 nav input {
 	width: 90%;
+}
+
+nav button {
+	color: #c78c06;
+	background-color: #222;
+	border: 1px solid #c78c06;
 }
 
 /*need to solve to get background color around logo*/
