@@ -89,9 +89,18 @@ nav > ul li a:hover, a:active {
 	/*used rgba version of colour to allow for opacity on background*/
 	background-color: rgba( 34, 34, 34, 0.5);
 	/*need to center main wrapper block*/
-	padding-top: 136px;
+	display: inline-block;
+	margin-top: 4.5%;
+	margin-bottom: 4.5%;
 }
 
 h1, .welcome p { 
 	color: white;
+}
+
+.welcome a {
+	color: #222;
+	background-color: #c78c06;
+	padding: 4.5%;
+	text-align: center;
 }
