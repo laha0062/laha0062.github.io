@@ -264,3 +264,36 @@ div.services div.wrapper a {
 	border-style: solid;
 	margin: 2%;
 }
+
+.contact-us div.wrapper h3 {
+	font-size: 1.5rem;
+	font-weight: bold;
+	margin-top: 4%;
+	margin-bottom: 2%;
+}
+
+.contact-us .wrapper {
+	margin: 4.5%;
+}
+
+.contact-us form {
+	display: flex;
+	text-align: left;
+	flex-direction: column;
+	justify-content: space-between;
+	font-size: .75rem;
+}
+
+.contact-us form label {
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+.contact-us form button {
+	display: inline-block;
+	margin-top: 2%;
+	/*min-content to shrink to smallest size*/
+	width: min-content;
+	color: #c78c06;
+	background-color: #222;
+}
