@@ -436,7 +436,6 @@ footer .wrapper {
 
 	.services .wrapper {
 		display: grid;
-		grid-template-columns: 6;
 		grid-template-areas: 
 		"h h h h h h"
 		"d d d m m m"
@@ -448,23 +447,23 @@ footer .wrapper {
 		grid-area: h;
 	}
 
-	.services div:nth-child(1) {
+	.digt {
 		grid-area: d;
 	}
 
-	.services div:nth-child(2) {
+	.mark {
 		grid-area: m;
 	}
 
-	.services div:nth-child(3) {
+	.vidp {
 		grid-area: v;
 	}
 
-	.services div:nth-child(4) {
+	.webd {
 		grid-area: w;
 	}
 
-	.services div:nth-child(5) {
+	.print {
 		grid-area: p;
 	}
 }
