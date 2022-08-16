@@ -494,6 +494,10 @@ footer .wrapper {
 		flex-direction: row-reverse;
 	}
 
+	.team .wrapper img {
+		width: 50%;
+	}
+
 	.contact-us, .location {
 		display: grid;
 	}
