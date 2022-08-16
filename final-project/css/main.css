@@ -427,7 +427,7 @@ footer .wrapper {
 
 	.about-us p {
 		grid-area: para;
-		font-size: 1.25rem;
+		font-size: 1rem;
 	}
 
 	.about-us .wrapper p:nth-child(2) {
@@ -439,8 +439,9 @@ footer .wrapper {
 		grid-template-areas: 
 		"h h h h h h"
 		"d d d m m m"
-		"v v w w p p"
-		;
+		"v v w w p p";
+		grid-template-columns: repeat(6,1fr);
+		grid-template-rows: auto;
 	}
 
 	.services h2 {
@@ -465,5 +466,20 @@ footer .wrapper {
 
 	.print {
 		grid-area: p;
+	}
+
+	.vision div.wrapper a {
+		padding: 3%;
+		text-align: center;
+		display: inline-block;
+		width: 15%;
+	}
+
+	.vision h3 {
+		font-size: 2rem;
+	}
+
+	.vision p {
+		font-size: 1rem;
 	}
 }
