@@ -409,6 +409,7 @@ footer .wrapper {
 		grid-template-areas: 
 		"img head "
 		"img para"
+		"img par"
 		;
 	}
 
@@ -430,8 +431,9 @@ footer .wrapper {
 		font-size: 1rem;
 	}
 
-	.about-us .wrapper p:nth-child(2) {
-		/*fix test overlap*/
+	.about-us .wrapper p + p {
+		padding-top: 2%;
+		grid-area: par;
 	}
 
 	.services .wrapper {
@@ -519,5 +521,9 @@ footer .wrapper {
 
 	.hours {
 		grid-area: hour;
+	}
+
+	footer p {
+		font-size: .75rem;
 	}
 }
