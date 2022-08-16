@@ -440,6 +440,7 @@ footer .wrapper {
 		"h h h h h h"
 		"d d d m m m"
 		"v v w w p p";
+		/*columns and rows used to even out elements size*/
 		grid-template-columns: repeat(6,1fr);
 		grid-template-rows: auto;
 	}
@@ -481,5 +482,19 @@ footer .wrapper {
 
 	.vision p {
 		font-size: 1rem;
+	}
+	/*targets first founder div*/
+	.team .wrapper h2 + div {
+		display: flex;
+		flex-direction: row;
+	}
+	/*second founder*/
+	.team .wrapper div:nth-child(3) {
+		display: flex;
+		flex-direction: row-reverse;
+	}
+
+	.contact-us, .location {
+		display: grid;
 	}
 }
