@@ -404,4 +404,67 @@ footer .wrapper {
 		width: 20%;
 	}
 
+	.about-us .wrapper {
+		display: grid;
+		grid-template-areas: 
+		"img head "
+		"img para"
+		;
+	}
+
+	.about-us img {
+		display: inline-block;
+		width: 100%;
+		margin-bottom: 2%;
+		grid-area: img;
+	}
+	
+	.about-us h2 {
+		font-size: 3rem;
+		grid-area: head;
+		margin: 2%;
+	}
+
+	.about-us p {
+		grid-area: para;
+		font-size: 1.25rem;
+	}
+
+	.about-us .wrapper p:nth-child(2) {
+		/*fix test overlap*/
+	}
+
+	.services .wrapper {
+		display: grid;
+		grid-template-columns: 6;
+		grid-template-areas: 
+		"h h h h h h"
+		"d d d m m m"
+		"v v w w p p"
+		;
+	}
+
+	.services h2 {
+		grid-area: h;
+	}
+
+	.services div:nth-child(1) {
+		grid-area: d;
+	}
+
+	.services div:nth-child(2) {
+		grid-area: m;
+	}
+
+	.services div:nth-child(3) {
+		grid-area: v;
+	}
+
+	.services div:nth-child(4) {
+		grid-area: w;
+	}
+
+	.services div:nth-child(5) {
+		grid-area: p;
+	}
 }
