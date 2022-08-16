@@ -498,7 +498,26 @@ footer .wrapper {
 		width: 50%;
 	}
 
-	.contact-us, .location {
+	.bottom {
 		display: grid;
+		grid-template-areas: 
+		"message loca"
+		"hour hour";
+	}
+
+	.contact-us {
+		grid-area: message;
+	}
+
+	.location {
+		grid-area: loca;
+	}
+
+	.map iframe {
+		height: 30vw;
+	}
+
+	.hours {
+		grid-area: hour;
 	}
 }
